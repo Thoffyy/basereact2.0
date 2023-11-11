@@ -4,13 +4,15 @@ import {Container, Row, Image} from 'react-bootstrap';
 
 ReactDOM.render(
 
-  <Container className="banner" fluid>
+  <Container fluid className="banner" >
 <Row className="row1">
   <h1 className="white-text">ola mundo</h1>
 </Row>  
 
 <Row className="row2">
-  <Image roundedCircle src="rick.gif" />
+  
+  <Image roundedCircle src="defaultAvatar.png" />
+
 </Row>
   </Container>
 ,

@@ -1,9 +1,20 @@
-.banner{
+.banner {
   background-color: bisque;
   padding: 40px;
   justify-content: center;
 }
 
-.row1{
+.white-text {
+  padding: 10px;
+  color: aliceblue;
+}
+
+.row1 {
   text-align: center;
+}
+
+.row2 {
+  display: flex;
+  max-width: fit-content;
+  padding-left: 570px; /* Ajuste conforme necessário ou remova se não for necessário */
 }
