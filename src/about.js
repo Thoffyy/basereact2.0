@@ -1,11 +1,10 @@
 import * as React from 'react'
 import {Container, Row, Image} from 'react-bootstrap';
 
+
 export default function about(){
     return(
     <>
-
-
 
 <Container fluid className="banner" >
   <Row className="row1">
@@ -14,9 +13,10 @@ export default function about(){
 
   <Row className="row2">
 
-  <Image roundedCircle src="defaultAvatar.png" />
+  <Image className='imagem' roundedCircle src="defaultAvatar.png" style={{ width: '100px' }}/> 
 
   </Row>
+
     </Container>
   <Container>
 
@@ -54,14 +54,5 @@ A expressão Lorem ipsum em design gráfico e editoração é um texto padrão e
 
   </Container>
 
-    
-    
-    
-    
-    
-    
-    
-    
-    
     </>)
 }
